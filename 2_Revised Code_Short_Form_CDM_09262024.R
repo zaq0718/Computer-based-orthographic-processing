@@ -6,7 +6,6 @@ library(CDM)
 library(NPCD)
 
 # 2. Setting work directory -----------------------------------------------
-setwd("C:/Users/myijwu01/Desktop/Revision_CDM_Short form/Shortform")
 Short.form <- read.csv("Short-form.txt",header = T, sep="")
 Q1 <- as.matrix(read.csv("Q1.txt",header = F, sep=""))
 Q5 <- as.matrix(read.csv("Q5.txt",header = F, sep=""))
