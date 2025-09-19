@@ -22,7 +22,6 @@ round (apply(Short.form,2,sum)/74,2)
 
 #3. four-skill model 
 library(NPCD)
-setwd("C:/Users/myijwu01/Desktop/Revision_CDM_Short form/Shortform")
 Q4 <- read.csv("Q4_09252024.txt",header=F,sep="")
 Sd4<-CDM::din(data = Short.form, q.matrix = Q4, conv.crit = 0.01, maxit = 500, rule = "DINA", progress = TRUE) 
 summary(Sd4)
