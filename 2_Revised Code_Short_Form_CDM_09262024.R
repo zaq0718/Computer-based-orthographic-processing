@@ -150,9 +150,10 @@ anova(Sd5H2, Sd5H4)
 anova(Sd5H3, Sd5H4)
 
 # 7. Nonparmatirc function to HCDM (loss values) --------------------------
-##AlphaNP function have to be modified. The modified part is the number of profiles
-##I added a new parameter in the function-->profile_h
-#profile_h means the number of profiles in the HCM
+## Funcation"AlphaNP" is from the NPCD package.
+## AlphaNP function was modified. The modified part is the number of profiles
+## I added a new parameter in the function-->profile_h
+## profile_h: means the number of profiles in the HCM
 
 
 AlphaNP_H <- function (Y, Q,profile_h,gate = c("AND", "OR"), method = c("Hamming", 
