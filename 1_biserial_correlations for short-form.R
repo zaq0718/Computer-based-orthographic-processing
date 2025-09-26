@@ -2,6 +2,7 @@
 #Author: Yi-Jhen Wu 
 #1. biserial_correlations for short-form (Table 2)
 library(ltm)
+# here may be an error
 n <- nrow(Short.form)# sample size
 item_names <- colnames(Short.form)
 biserial_correlations <- numeric(length(item_names))# 3ß items
